@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- To ensure proper rendering and touch zooming for all devices -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <!-- Local css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="images/logo1.png" type="image/gif" sizes="12x12">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Tic Tac toe</title>
+</head>
+
+<body>
+    <header class="header"></header>
+
+    <h1>Tic Tac Toe</h1>
+    <form action="result" method="post">
+        <div class="row">
+            <div class="col col-sm-3" id="r0c0" data-i=0 data-j=0></div>
+            <div class="col col-sm-3" id="r0c1" data-i=0 data-j=1></div>
+            <div class="col col-sm-3" id="r0c2" data-i=0 data-j=2></div>
+        </div>
+        <div class="row">
+            <div class="col col-sm-3" id="r1c0" data-i=1 data-j=0></div>
+            <div class="col col-sm-3" id="r1c1" data-i=1 data-j=1></div>
+            <div class="col col-sm-3" id="r1c2" data-i=1 data-j=2></div>
+        </div>
+        <div class="row">
+            <div class="col col-sm-3" id="r2c0" data-i=2 data-j=0></div>
+            <div class="col col-sm-3" id="r2c1" data-i=2 data-j=1></div>
+            <div class="col col-sm-3" id="r2c2" data-i=2 data-j=2></div>
+        </div>
+        <input type="submit" id="newGameButton" class="newGameButton btn btn-success" value="New Game">
+    </form>
+
+    <footer class="footer">PROG8165: Assignment 9</footer>
+</body>
+
+</html>
